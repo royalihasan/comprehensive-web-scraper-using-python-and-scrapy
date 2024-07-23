@@ -1,0 +1,6 @@
+.idea
+.vscode
+data
+# Exclude Python cache files
+__pycache__/
+*.py[cod]

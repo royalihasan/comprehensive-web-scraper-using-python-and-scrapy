@@ -2,15 +2,16 @@ import json
 import math
 import scrapy
 from urllib.parse import urlencode
-from src.items import WalmartItem  # Adjust the import path accordingly
 from typing import Generator
+from src.items import WalmartItem
 
 
 class WalmartSpider(scrapy.Spider):
-    name = "spider"
+    name = "search_walmart"
 
     def start_requests(self) -> Generator[scrapy.Request, None, None]:
-        keyword_list = ['laptop', 'mobile']
+        keyword_list = ['laptop', 'smartphone', 'tablet', 'smartwatch',
+                        'headphones', 'earbuds', 'speaker', 'monitor', 'keyboard', 'mouse']
         for keyword in keyword_list:
             payload = {
                 'q': keyword,

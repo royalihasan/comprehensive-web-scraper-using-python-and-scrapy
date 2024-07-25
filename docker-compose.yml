@@ -1,19 +1,12 @@
 version: '3.7'
 # Define services
 services:
-  # MongoDB service
-  mongod:
-    image: mongo:latest
-    container_name: mongod
+  scrapy-splash:
+    image: scrapinghub/splash
+    container_name: scrapy-splash
     restart: always
     environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: root
+      - SPLASH_URL=http://splash:8050
     ports:
-      - "27017:27017"
-    volumes:
-      - ./data:/data/db
-
-# Scraper Network
-
-
+      - "8050:8050"
+    command: --max-timeout 3600

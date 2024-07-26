@@ -3,6 +3,7 @@ from src.store.grocery_items import WalmartGroceryItem
 from src.common.URLs import urls
 import json
 
+
 class WalmartSpider(scrapy.Spider):
     name = "walmart_grocery"
     BASE_URL = 'https://www.walmart.com'
@@ -114,7 +115,10 @@ class WalmartSpider(scrapy.Spider):
                 salesUnit=product_data.get('salesUnit'),
                 keywords=[keyword.strip()
                           for keyword in keywords] if keywords else 'N/A',
-                category=product_data.get('category')
+                category=product_data.get('category'),
+                ingredients=product_idml.get('ingredients'),
+                nutritionFacts=product_idml.get('nutritionFacts'),
+                drugGuide=product_idml.get('drugGuide'),
             )
             yield grocery_item
         except Exception as e:

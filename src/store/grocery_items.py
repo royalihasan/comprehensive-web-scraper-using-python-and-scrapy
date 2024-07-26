@@ -39,3 +39,6 @@ class WalmartGroceryItem(scrapy.Item):
     salesUnit = scrapy.Field()
     keywords = scrapy.Field()
     category = scrapy.Field()
+    ingredients= scrapy.Field()
+    nutritionFacts = scrapy.Field()
+    drugGuide= scrapy.Field()

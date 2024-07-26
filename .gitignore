@@ -4,3 +4,7 @@ data
 # Exclude Python cache files
 __pycache__/
 *.py[cod]
+#exlude json files
+*.json
+
+

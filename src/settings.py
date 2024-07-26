@@ -28,10 +28,10 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 
 # SCRAPEOPS SETTINGS
 
-# SCRAPEOPS_API_KEY = '4f5dc63e-2a51-4420-98f7-4fd60db6e79f'
-# SCRAPEOPS_PROXY_ENABLED = True
-# CONCURRENT_REQUESTS = 1
+SCRAPEOPS_API_KEY = '0f49b1a1-3a81-4846-9d5a-bc1d1ce85e9a'
+SCRAPEOPS_PROXY_ENABLED = True
+CONCURRENT_REQUESTS = 1
 
-# DOWNLOADER_MIDDLEWARES = {
-#     'scrapeops_scrapy_proxy_sdk.scrapeops_scrapy_proxy_sdk.ScrapeOpsScrapyProxySdk': 725,
-# }
+DOWNLOADER_MIDDLEWARES = {
+    'scrapeops_scrapy_proxy_sdk.scrapeops_scrapy_proxy_sdk.ScrapeOpsScrapyProxySdk': 725,
+}

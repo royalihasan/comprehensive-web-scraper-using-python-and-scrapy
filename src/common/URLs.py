@@ -1,19 +1,4 @@
 urls = {
-    'https://www.walmart.com/browse/electronics/3944?page=1&affinityOverride=default',
-    'https://www.walmart.com/browse/clothing/5438?page=1&affinityOverride=default',
-    'https://www.walmart.com/browse/home/4044?page=1&affinityOverride=default',
-    'https://www.walmart.com/browse/food/976759?page=1&affinityOverride=default',
-    'https://www.walmart.com/browse/health/976760?page=1&affinityOverride=default',
-    'https://www.walmart.com/browse/beauty/1085666?page=1&affinityOverride=default',
-    'https://www.walmart.com/browse/pets/5440?page=1&affinityOverride=default',
-    'https://www.walmart.com/browse/office/3944?page=1&affinityOverride=default',
-    'https://www.walmart.com/browse/sports/4125?page=1&affinityOverride=default',
-    'https://www.walmart.com/browse/auto/91083?page=1&affinityOverride=default',
-    'https://www.walmart.com/browse/books/3920?page=1&affinityOverride=default',
-    'https://www.walmart.com/browse/music/4104?page=1&affinityOverride=default',
-    'https://www.walmart.com/browse/movies/4096?page=1&affinityOverride=default',
-    'https://www.walmart.com/browse/games/2636?page=1&affinityOverride=default',
-    'https://www.walmart.com/browse/toys/4171?page=1&affinityOverride=default',
-    'https://www.walmart.com/browse/baby/5427?page=1&affinityOverride=default',
-    'https://www.walmart.com/browse/food/976759?page=1&affinityOverride=default',
+    'https://www.walmart.com/browse/electronics/3944?page=1&affinityOverride=default'
+
 }
